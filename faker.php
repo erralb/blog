@@ -6,10 +6,10 @@
 require_once 'vendor/autoload.php';
 
 // Connect to the database
-$user = 'phpmy';
-$password = 'phpmy';
-$dbname = 'blogbdd';
-$driver = 'mysql';
+$user = 'YOUR DB USERNAME';
+$password = 'YOUR DB PASSWORD';
+$dbname = 'YOUR DB NAME';
+$driver = 'mysql'; //Change this to your database driver
 
 try {
     $conn = new PDO($driver.':host=localhost;dbname='.$dbname, $user, $password);

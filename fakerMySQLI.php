@@ -6,7 +6,7 @@
 require_once 'vendor/autoload.php';
 
 // Connect to the database
-$conn = new mysqli("localhost", "phpmy", "phpmy", "blog");
+$conn = new mysqli("localhost", "YOUR DB USERNAME", "YOUR DB PASSWORD", "YOUR DB NAME");
 
 // Check connection
 if ($conn->connect_error) {
