@@ -9,7 +9,7 @@ require_once 'vendor/autoload.php';
 $user = 'YOUR DB USERNAME';
 $password = 'YOUR DB PASSWORD';
 $dbname = 'YOUR DB NAME';
-$driver = 'mysql'; //Change this to your database driver
+$driver = 'mysql'; //Change this to your database driver if you use sqlite or postgresql
 
 try {
     $conn = new PDO($driver.':host=localhost;dbname='.$dbname, $user, $password);
